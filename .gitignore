@@ -1,0 +1,28 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Environnement Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Données et modèles lourds (non versionnés)
+data/index/
+data/qdrant/
+data/minio/
+models/
+*.safetensors
+*.bin
+mlruns/
+
+# Système / éditeur
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
